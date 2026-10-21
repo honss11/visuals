@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "dev.likevisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin", "SwingMixin", "ClientWorldMixin", "ClientWorldPropertiesMixin", "GameRendererMixin", "HurtCamMixin",
+    "EntityMixin", "CameraMixin", "ClientPlayNetworkHandlerMixin", "BossBarHudMixin", "InGameHudMixin", "ScoreboardMixin",
+    "InGameOverlayRendererMixin", "HandledScreenAccessor", "SimpleOptionAccessor",
+    "BiomeColorsMixin", "SoundSystemMixin", "StatusBarsMixin", "XpBarMixin", "XpLevelMixin", "HotbarMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

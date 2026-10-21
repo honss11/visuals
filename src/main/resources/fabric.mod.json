@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "likevisuals",
+  "version": "${version}",
+  "name": "LikeVisuals",
+  "description": "LikeVisuals client for 1.21.4",
+  "authors": ["LikeVisuals"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.likevisuals.LikeVisuals"] },
+  "mixins": [{ "config": "likevisuals.mixins.json", "environment": "client" }],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
